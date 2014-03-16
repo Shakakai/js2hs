@@ -4,12 +4,21 @@ I’ll be using the blog at [http://js2hs.tumblr.com/](http://js2hs.tumblr.com/)
 
 I plan to submit each post to /r/javascript and /r/haskell on reddit for feedback, links will be appended to the bottom of the post. Additionally, you can reach out to me on Twitter @Shakakai.
 
-# Installation
+# Requirements
+
+You'll need the following packages setup on your computer:
+* [nodejs](http://nodejs.org/)
+* [npm](https://www.npmjs.org/)
+* [mocha](http://visionmedia.github.io/mocha/): npm install -g mocha
+* [haskell platform](http://www.haskell.org/platform/) - bundles together ghci, cabal, cabal-install
+
+# Project Installation
 
 Run the following commands to get setup with the project:
 * git clone git@github.com:Shakakai/js2hs.git
-* cd js2hs && npm install
-* npm install -g mocha
+* cd js2hs
+* npm install
+* cabal install
 
 # Running the tests
 
@@ -18,5 +27,17 @@ Run the following commands to get setup with the project:
 During the installation, you installed mocha, a unit test framework. You can run the mocha test suite for a post like so:
 mocha [post folder]/[javascript test file]
 mocha post1/string.js
+
+## Haskell
+
+For Haskell testing, we'll be using HUnit, the Haskell equivalent of JUnit.
+
+
+
+
+
+
+
+
 
 

@@ -1,0 +1,16 @@
+{
+  "name": "js2hs",
+  "version": "0.0.1",
+  "description": "javascript to haskell tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Todd Cullen",
+  "license": "MIT",
+  "dependencies" : {
+    "expect.js" : "*",
+    "mocha" : "*"
+  }
+}

@@ -11,4 +11,12 @@ Run the following commands to get setup with the project:
 * cd js2hs && npm install
 * npm install -g mocha
 
+# Running the tests
+
+## Javascript
+
+During the installation, you installed mocha, a unit test framework. You can run the mocha test suite for a post like so:
+mocha [post folder]/[javascript test file]
+mocha post1/string.js
+
 

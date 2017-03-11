@@ -9,7 +9,7 @@ I plan to submit each post to /r/javascript and /r/haskell on reddit for feedbac
 You'll need the following packages setup on your computer:
 * [nodejs](http://nodejs.org/)
 * [npm](https://www.npmjs.org/)
-* [mocha](http://visionmedia.github.io/mocha/): npm install -g mocha
+* [mocha](http://mochajs.org/): npm install -g mocha
 * [haskell platform](http://www.haskell.org/platform/) - bundles together ghci, cabal, cabal-install
 
 # Project Installation
